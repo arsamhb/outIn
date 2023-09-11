@@ -1,0 +1,368 @@
+<!-- npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch -->
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="max-w-[100vw] bg-[#f0f0f0]">
+    <nav
+      class="flex flex-col justify-between px-12 pt-4 pb-12 bg-black text-white"
+    >
+      <div class="flex flex-row justify-between py-8">
+        <div class="flex flex-row gap-12">
+          <a href="">
+            <svg
+              width="24"
+              height="24"
+              class="fill-white"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M12 0c-5.083 0-8.465 4.949-3.733 13.678 1.596 2.945-1.725 3.641-5.09 4.418-3.073.709-3.187 2.235-3.177 4.904l.004 1h23.99l.004-.969c.012-2.688-.093-4.223-3.177-4.935-3.438-.794-6.639-1.49-5.09-4.418 4.719-8.912 1.251-13.678-3.731-13.678m0 1c1.89 0 3.39.764 4.225 2.15 1.354 2.251.866 5.824-1.377 10.06-.577 1.092-.673 2.078-.283 2.932.937 2.049 4.758 2.632 6.032 2.928 2.303.534 2.412 1.313 2.401 3.93h-21.998c-.01-2.615.09-3.396 2.401-3.93 1.157-.266 5.138-.919 6.049-2.94.387-.858.284-1.843-.304-2.929-2.231-4.115-2.744-7.764-1.405-10.012.84-1.412 2.353-2.189 4.259-2.189"
+              />
+            </svg>
+          </a>
+          <a href="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="fill-white"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm6.305-15l-3.432 12h-10.428l-3.777-9h-2.168l4.615 11h13.239l3.474-12h1.929l.743-2h-4.195z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="flex flex-row gap-12">
+          <a href="" class="hover:text-gray-400 transition-all">خانه</a>
+          <a href="" class="hover:text-gray-400 transition-all">اوت این</a>
+          <a href="" class="hover:text-gray-400 transition-all">درباره ما</a>
+          <a href="" class="hover:text-gray-400 transition-all">بخرید</a>
+        </div>
+        <div class="">
+          <a href="./index.html"
+            ><img class="w-full" src="../assets/img/logo.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div>
+        <img class="rounded-xl" src="../assets/img/hero.jpeg" alt="" />
+      </div>
+    </nav>
+    <main class="flex flex-col gap-12 max-w-[100vw]">
+      <h4
+        class="w-full text-center font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-b from-[#348081] to-[#bed2d3] pt-6"
+      >
+        اوت این
+      </h4>
+      <div
+        class="flex flex-col gap-8 justify-center items-center w-full text-center px-40"
+      >
+        <h3>برای ابداع عادات قهوه خود</h3>
+        <p>
+          Nano که به صورت ارگونومیک با قوس هوشمندانه طراحی شده است، جالب ترین
+          روش شما برای نوشیدن قهوه است. اسپرسوساز قابل حمل ریچ کرما با خود
+          گرمایش 3 دقیقه ای اسپرسویی ابریشمی و صاف را در هر زمان و هر مکان ارائه
+          می دهد، درست مثل اینکه همیشه یک باریستا همراه شما باشد!
+        </p>
+        <button
+          class="border-4 border-black p-4 rounded-full text-center justify-center"
+        >
+          همین حالا بخرید
+        </button>
+      </div>
+      <div class="w-full relative px-12">
+        <img
+          src="../assets/img/10034.jpg"
+          alt="detailed nano"
+          class="shadow-md rounded-3xl"
+        />
+        <!--       <button class="rounded-full w-10 h-10 text-3xl bg-slate-50 flex justify-center items-center" id="plus-1">+</button>
+      <button class="rounded-full w-10 h-10 text-3xl bg-slate-50 flex justify-center items-center" id="plus-2">+</button>
+      <button class="rounded-full w-10 h-10 text-3xl bg-slate-50 flex justify-center items-center" id="plus-3">+</button>
+      <button class="rounded-full w-10 h-10 text-3xl bg-slate-50 flex justify-center items-center" id="plus-4">+</button>
+      <button class="rounded-full w-10 h-10 text-3xl bg-slate-50 flex justify-center items-center" id="plus-5">+</button>   LATER ON USING JS PUT THESE ON PHOTO -->
+      </div>
+
+      <!-- FEATURED COLLECTION A LIST OF PRODUCTS SHOULD BE HERE 5 FOR SALE -->
+      <div class="flex flex-row justify-between items-center px-12 gap-6">
+        <div class="flex flex-col gap-6">
+          <img src="../assets/img/10035 (1).jpeg" class="max-w-[100%]" alt="" />
+          <div class="flex flex-col">
+            <h3 class="mb-2">دستگاه اسپرسوساز قابل حمل نانو</h3>
+            <h4 class="mb-2">قیمت : 7500000 تومان</h4>
+            <div class="flex flex-row justify-between">
+              <h5 class="flex flex-row gap-2">
+                <svg
+                  class="fill-amber-400 w-6"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44z"
+                  />
+                </svg>
+                5
+              </h5>
+              <h5>رنگ گرین تیل</h5>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-6">
+          <img src="../assets/img/10035 (1).jpeg" class="max-w-[100%]" alt="" />
+          <div class="flex flex-col">
+            <h3 class="mb-2">دستگاه اسپرسوساز قابل حمل نانو</h3>
+            <h4 class="mb-2">قیمت : 7500000 تومان</h4>
+            <div class="flex flex-row justify-between">
+              <h5 class="flex flex-row gap-2">
+                <svg
+                  class="fill-amber-400 w-6"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44z"
+                  />
+                </svg>
+                5
+              </h5>
+              <h5>رنگ گرین تیل</h5>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-6">
+          <img src="../assets/img/10035 (1).jpeg" class="max-w-[100%]" alt="" />
+          <div class="flex flex-col">
+            <h3 class="mb-2">دستگاه اسپرسوساز قابل حمل نانو</h3>
+            <h4 class="mb-2">قیمت : 7500000 تومان</h4>
+            <div class="flex flex-row justify-between">
+              <h5 class="flex flex-row gap-2">
+                <svg
+                  class="fill-amber-400 w-6"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44z"
+                  />
+                </svg>
+                5
+              </h5>
+              <h5>رنگ گرین تیل</h5>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-6">
+          <img src="../assets/img/10035 (1).jpeg" class="max-w-[100%]" alt="" />
+          <div class="flex flex-col">
+            <h3 class="mb-2">دستگاه اسپرسوساز قابل حمل نانو</h3>
+            <h4 class="mb-2">قیمت : 7500000 تومان</h4>
+            <div class="flex flex-row justify-between">
+              <h5 class="flex flex-row gap-2">
+                <svg
+                  class="fill-amber-400 w-6"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44z"
+                  />
+                </svg>
+                5
+              </h5>
+              <h5>رنگ گرین تیل</h5>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-6">
+          <img src="../assets/img/10035 (1).jpeg" class="max-w-[100%]" alt="" />
+          <div class="flex flex-col">
+            <h3 class="mb-2">دستگاه اسپرسوساز قابل حمل نانو</h3>
+            <h4 class="mb-2">قیمت : 7500000 تومان</h4>
+            <div class="flex flex-row justify-between">
+              <h5 class="flex flex-row gap-2">
+                <svg
+                  class="fill-amber-400 w-6"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44z"
+                  />
+                </svg>
+                5
+              </h5>
+              <h5>رنگ گرین تیل</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 gap-6 h-screen px-12">
+        <div
+          class="rounded-2xl row-span-2 grid place-content-center text-3xl text-white bg-[url('../../assets/img/10076.gif')] bg-no-repeat bg-center bg-cover"
+        >
+          <h3>طعم قوی تر پسماند کمتر</h3>
+        </div>
+        <div
+          class="rounded-2xl bg-[url('../../assets/img/10068.jpeg')] bg-no-repeat bg-center bg-cover grid place-content-center"
+        >
+          <h3 class="text-3xl text-white">دوستدار محیط زیست</h3>
+        </div>
+        <div
+          class="rounded-2xl bg-[url('../../assets/img/10069.jpeg')] bg-no-repeat bg-center bg-cover grid place-content-center text-3xl text-white"
+        >
+          در راستای پاینداری
+        </div>
+      </div>
+
+      <div
+        class="w-[100%] h-screen bg-[url('../../assets/img/10040.png')] bg-no-repeat bg-center bg-cover grid place-content-center"
+      >
+        <h2
+          class="grid place-content-center text-center text-8xl text-white mb-24"
+        >
+          چشم‌انداز ما
+        </h2>
+        <p class="grid place-content-center text-center text-3xl text-white">
+          پایداری در DNA برند Outin حک شده است، تغییری برای زندگی پایدارتر در
+          دنیایی ناپایدار.
+        </p>
+      </div>
+
+      <div id="shop" class="flex flex-row px-12 py-8">
+        <img class="w-1/3 h-fit" src="../assets/img/10029.jpeg" alt="" />
+        <div id="info-of-device" class="px-8 w-full mr-6">
+          <h2 id="title-with-color" class="text-2xl">
+            دستگاه اسپرسوساز نانو<span id="color">رنگ فارست گرین</span>
+          </h2>
+          <h3 id="price" class="text-xl my-2">قیمت دستگاه تومان</h3>
+          <ul class="mr-6">
+            <li class="list-disc text-xl mb-2 text-slate-950">
+              وزن سبک:
+              <span class="text-lg text-slate-700">کمتر از 700 گرم</span>
+            </li>
+            <li class="list-disc text-xl mb-2 text-slate-950">
+              گرمایش سریع:
+              <span class="text-lg text-slate-700"
+                >گرم کردن آب مخزن در 180 ثانیه</span
+              >
+            </li>
+            <li class="list-disc text-xl mb-2 text-slate-950">
+              کرم غنی:
+              <span class="text-lg text-slate-700"
+                >اسپرسو کرمی در دمای 92 درجه سانتیگراد و فشار 20 بار</span
+              >
+            </li>
+            <li class="list-disc text-xl mb-2 text-slate-950">
+              طول عمر باتری:
+              <span class="text-lg text-slate-700"
+                >باتری 7500 میلی‌آمپری برای 5 بار جوش‌آوردن آب</span
+              >
+            </li>
+            <li class="list-disc text-xl mb-2 text-slate-950">
+              استاندارهای سطح بالا:
+              <span class="text-lg text-slate-700"
+                >دارای تاییدیه اروپا و مرکز دم @آموری قهوه</span
+              >
+            </li>
+            <li class="list-disc text-xl mb-2 text-slate-950">
+              قابلیت شارژ:
+              <span class="text-lg text-slate-700"
+                >شارژ با استفاده از USB و برق 12 یا 14 ولت</span
+              >
+            </li>
+            <li class="list-disc text-xl mb-2 text-slate-950">
+              دو روش دم‌آوری:
+              <span class="text-lg text-slate-700"
+                >قابل استفاده با کپسول‌های آماده یا دانه آسیاب شده</span
+              >
+            </li>
+          </ul>
+          <div id="color-chosing" class="my-4">
+            <h4 class="text-lg my-4">رنگ : گرین فارست</h4>
+            <button class="border rounded-xl py-2 px-4 border-slate-300">
+              اوت این تیل
+            </button>
+            <button class="border rounded-xl py-2 px-4 border-slate-300">
+              اسپیس گری
+            </button>
+            <button class="border rounded-xl py-2 px-4 border-slate-300">
+              فارست گرین
+            </button>
+            <button class="border rounded-xl py-2 px-4 border-slate-300">
+              پیرل وایت
+            </button>
+            <button class="border rounded-xl py-2 px-4 border-slate-300">
+              کریسمون رد
+            </button>
+          </div>
+
+          <div id="quantity">
+            <h4 class="text-lg my-4">تعداد</h4>
+            <div class="flex">
+              <button
+                class="border border-slate-300 px-4 py-2 rounded-br-3xl rounded-tr-3xl"
+              >
+                -
+              </button>
+              <p class="px-4 py-2 border border-slate-300">1</p>
+              <button
+                class="border border-slate-300 px-4 py-2 rounded-bl-3xl rounded-tl-3xl"
+              >
+                +
+              </button>
+            </div>
+          </div>
+          <div id="basket-action-btns" class="flex flex-row gap-8 my-4">
+            <button
+              class="w-1/3 h-14 text-xl border-slate-950 border-2 rounded-full bg-slate-950 text-white"
+            >
+              افزودن به سبد خرید
+            </button>
+            <button
+              class="w-1/3 h-14 text-xl border-slate-950 border-2 rounded-full text-slate-950"
+            >
+              خرید
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer
+      class="h-[30vh] px-12 pt-12 pb-2 flex flex-col justify-between gap-6 items-center"
+    >
+      <div class="flex flex-row justify-between items-center w-full">
+        <div class="flex flex-row gap-12">
+          <a>سوالات متداول</a>
+          <a>محصولات</a>
+          <a>درباره ما</a>
+          <a>خرید عمده</a>
+          <a>ارتباط با ما</a>
+        </div>
+        <img src="../assets/img/10063.png" class="w-32" alt="" />
+      </div>
+      <h6>تمامی حقوق این سایت متعلق به سایت فلان می‌باشد.</h6>
+    </footer>
+  </body>
+</html>
